@@ -1,0 +1,97 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 20 dic 2022, 10:25:16
+    Author     : Admin
+*/
+
+*{
+    margin:0;
+    
+}
+
+  #principal {
+    min-height:100vh;    
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(93, 122, 187, 0.781)), to(rgba(36, 12, 68, 0.911))),
+    url(./img/gato.jpg);
+        
+  } 
+  
+  #centro {
+      min-height:100vh;
+      border: 5px solid red;
+  }
+
+  /*TABLAS*/
+
+  #tabla-title{
+    font-family: Verdana black;
+    
+    color: rgba(0, 0, 0, 0.849);
+    font-size: 25px;
+    
+    
+  }
+
+  #tabladeco {
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.534);
+    border-color: rgba(255, 255, 255, 0.5);
+    margin-top: 15px;
+    
+  }
+
+  
+ /* BOTONES*/
+
+  #boton{
+    color: rgb(126, 146, 255);
+    font-size: 22px;
+  }
+
+  #boton:hover {
+    color: rgb(157, 122, 253);
+  }
+
+  #botonAgregar{
+    background-color: rgba(126, 145, 255, 0.507);
+    border: 3px solid rgba(94, 28, 155, 0.253);
+    color: white;
+  }
+
+  #botonAgregar:hover{
+    background-color: rgb(157, 122, 253);
+    
+  }
+
+  #formulario{
+    background-color: rgba(0, 0, 0, 0.486);
+    padding: 15px;
+    color: white;
+    border-radius: 2%;
+  }
+
+  @media (min-width: 1000px){
+    #formu{
+      width: 50%;
+    }
+  }
+
+  #contenedor{
+  border: 2px solid rgba(0, 0, 255, 0);
+  min-height: 100vh;
+
+}
+
+#gatito{
+  margin-top: 150px;
+  display: flex;
+  align-self: center;
+  
+  margin-bottom: 20px;
+}
+
+
+
